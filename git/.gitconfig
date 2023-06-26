@@ -1,0 +1,20 @@
+[init]
+	defaultBranch = master
+[user]
+	name = Ronald Huggler
+	email = ronald@huggler.com.br
+[core]
+	editor = nvim
+	whitespace = -trailing-space
+[diff]
+	mnemonicPrefix = true
+	renames = true
+[log]
+	abbrevCommit = true
+	follow = true
+[merge]
+	ff = false
+[push]
+	default = upstream
+[status]
+	showUntrackedFiles = all
