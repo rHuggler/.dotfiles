@@ -1,7 +1,7 @@
 configuration {
 	modi: "drun,run";
 	font: "Source Code Pro 13";
-/*	location: 0;*/
+	location: 0;
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
 /*	fixed-num-lines: true;*/
