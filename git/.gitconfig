@@ -18,3 +18,9 @@
 	default = upstream
 [status]
 	showUntrackedFiles = all
+[alias]
+	s = status
+	b = branch
+	c = checkout
+	d = diff
+	dc = diff

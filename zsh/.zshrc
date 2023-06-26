@@ -105,3 +105,4 @@ source $ZSH/oh-my-zsh.sh
 
 export TERM=xterm-256color
 fpath+=/home/huggler/.zsh_functions
+
