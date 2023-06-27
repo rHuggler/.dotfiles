@@ -6,6 +6,7 @@
 [core]
 	editor = nvim
 	whitespace = -trailing-space
+	pager = less -rXF
 [diff]
 	mnemonicPrefix = true
 	renames = true

@@ -104,5 +104,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export TERM=xterm-256color
-fpath+=/home/huggler/.zsh_functions
-
+fpath+=$HOME/.zsh_functions
+export N_PREFIX=$HOME/.n

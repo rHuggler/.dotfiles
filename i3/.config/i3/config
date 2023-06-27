@@ -154,6 +154,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 for_window [class="firefox"] move to workspace $ws1
 for_window [class="discord"] move to workspace $ws2
 for_window [class="Spotify"] move to workspace $ws5
+for_window [class="code"] move to workspace $ws3
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
