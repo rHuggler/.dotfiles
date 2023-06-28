@@ -74,6 +74,7 @@ plugins=(git zsh-autosuggestions keychain gpg-agent)
 
 zstyle :omz:plugins:keychain agents gpg,ssh
 zstyle :omz:plugins:keychain identities github_rhuggler github_rhuggler-cr
+zstyle :omz:plugins:keychain options --quiet
 
 source $ZSH/oh-my-zsh.sh
 

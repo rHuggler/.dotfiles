@@ -218,21 +218,21 @@ exec_always --no-startup-id "setxkbmap -layout us,br -variant ,, -option grp:win
 # use picom compositor for transparency
 exec_always --no-startup-id picom --experimental-backends
 
-# set colors
-# class                 border  backgr. text    indicator child_border
-client.focused          #81a1c1 #285577 #ffffff #81a1c1   #81a1c1
-client.focused_inactive #4c566a #5f676a #ffffff #4c566a   #4c566a
-client.unfocused        #4c566a #222222 #888888 #4c566a   #4c566a
-client.urgent           #81a1c1 #900000 #ffffff #900000   #81a1c1
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+# class                 border  backgr. text    indicator
+client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
+client.unfocused        #2e3440 #1f222d #888888 #1f222d
+client.focused_inactive #2e3440 #1f222d #888888 #1f222d
+client.placeholder      #2e3440 #1f222d #888888 #1f222d
+client.urgent           #900000 #900000 #ffffff #900000
 
-client.background       #2e3440
+client.background       #242424
 
 # set window borders to plain borders
 for_window [class="^.*"] border pixel 0
 
 # screenshot on Win+Shift+s
 bindsym --release Mod4+Shift+s exec --no-startup-id maim -s | xclip -selection clipboard -t image/png
+bindsym --release Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
 
 # show gaps between panels
 gaps inner 10
