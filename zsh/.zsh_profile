@@ -1,0 +1,9 @@
+# Add home directories to path
+export PATH=$HOME/.n/bin:$HOME/.npm/bin:$HOME/.local/bin:$HOME/neovim/bin:$PATH
+
+# Enable autocompletions for alacritty
+fpath+=$HOME/.zsh_functions
+
+# Node version manager path
+export N_PREFIX=$HOME/.n
+
