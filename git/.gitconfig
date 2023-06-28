@@ -24,4 +24,4 @@
 	b = branch
 	c = checkout
 	d = diff
-	dc = diff
+	dc = diff --cached
