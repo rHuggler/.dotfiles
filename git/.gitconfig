@@ -3,8 +3,9 @@
 [user]
 	name = Ronald Huggler
 	email = ronald@huggler.com.br
+	signingkey = FE2CAE7D83D3E16D
 [core]
-	editor = nvim
+	editor = vim
 	whitespace = -trailing-space
 	pager = less -rXF
 [diff]
@@ -23,3 +24,5 @@
 	c = checkout
 	d = diff
 	dc = diff --cached
+[commit]
+	gpgsign = true
