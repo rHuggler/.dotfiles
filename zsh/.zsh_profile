@@ -7,3 +7,5 @@ fpath+=$HOME/.zsh_functions
 # Node version manager path
 export N_PREFIX=$HOME/.n
 
+# Makes bat not clear the screen when quitting less
+export BAT_PAGER='less -X'
